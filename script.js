@@ -11,7 +11,6 @@ window.onload = () => {
   }
 };
 function getbatteryInfo(i) {
-  console.log(i);
   isChar();
   i.addEventListener("chargingchange", () => {
     isChar();
